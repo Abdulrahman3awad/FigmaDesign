@@ -1,0 +1,18 @@
+@import url(./NavBar/NavBar.css);
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+body{
+    overflow-x: hidden; overflow-y: auto;
+    background-color: #24bb8b04;
+}
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}

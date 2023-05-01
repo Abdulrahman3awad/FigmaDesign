@@ -1,0 +1,152 @@
+.navBar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/* ### start the search bar ### */
+.navBar .searchBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height: 44px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    gap: 10px;
+    padding-right: 4px;
+}
+
+.navBar .searchBar > ion-icon{
+    position: absolute;
+    left: 15px;
+    font-size: 20px;
+    color: #98A2B3;
+    z-index: 1;
+}
+.navBar .searchBar > input{
+    z-index: 2;
+    max-width: 400px;
+    min-width: 200px;
+    height: 100%;
+    border: 0px; outline: 0px;
+    background-color: transparent;
+    padding-left: 42px;
+    color: #667085;
+    font-size: 16px;
+}
+.navBar .searchBar > input::placeholder{
+    color: #667085;
+}
+.navBar .searchBar button{
+    gap: 8px;
+    width: 111px;
+    height: 36px;
+    background: #F9F5FF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0px; outline: 0px;
+    background: #F9F5FF;
+    color: #7F56D9;
+    font-size: 14px;
+    font-weight: 600;
+}
+.navBar .searchBar button > ion-icon{
+    font-size: 16px;
+}
+/* ### start the menu buttons bar ### */
+.navBar .menuBtns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.navBar .menuBtns > a{
+    text-decoration: none;
+    color: #101828;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* ### start the buttons right bar ### */
+.navBar .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navBar .buttons button:nth-of-type(1){
+    color: #101828;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent ;
+    border: 0px;outline: 0px ;cursor: pointer;;
+}
+.navBar .buttons button:nth-of-type(2){
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    width: 167px;
+    height: 40px;
+    background: #7F56D9;
+    border: 1px solid #7F56D9;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* ### start the menu button ### */
+.navBar .menuBtn{
+    display: none;
+    font-size: 30px;
+    color: #7F56D9;
+    cursor: pointer;
+}
+/* ### start the media screen ### */
+@media only screen and (max-width:1200px) {
+    .navBar{
+        justify-content: center;
+        gap: 30px;
+    }
+    .navBar .buttons{
+        display: none;
+    }
+    .navBar .menuBtns{
+        display: none;
+    }
+    .navBar .menuBtn{
+        display: inline-block;
+        position: relative;right: -80px;
+    }
+}
+@media only screen and (max-width:830px) {
+    .navBar{
+        justify-content: space-between;
+        padding: 0 20px;
+        gap: 0px;
+    }
+    .navBar .menuBtn{right: 0px; }
+}
+@media only screen and (max-width:680px) {
+    .navBar{
+        justify-content: space-between;
+        padding: 0 20px;
+        gap: 0px;
+    }
+    .navBar > img{
+        width: 130px;
+    }
+    .navBar .searchBar{
+        display: none;
+    }
+    .navBar .menuBtn{font-size: 25px; }
+}
