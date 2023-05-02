@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 0px;
 }
 /* ### start the search bar ### */
 .navBar .searchBar{
@@ -112,7 +113,7 @@
     cursor: pointer;
 }
 /* ### start the media screen ### */
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1400px) {
     .navBar{
         justify-content: center;
         gap: 30px;
@@ -128,10 +129,9 @@
         position: relative;right: -80px;
     }
 }
-@media only screen and (max-width:830px) {
+@media only screen and (max-width:950px) {
     .navBar{
         justify-content: space-between;
-        padding: 0 20px;
         gap: 0px;
     }
     .navBar .menuBtn{right: 0px; }
@@ -139,11 +139,10 @@
 @media only screen and (max-width:680px) {
     .navBar{
         justify-content: space-between;
-        padding: 0 20px;
         gap: 0px;
     }
     .navBar > img{
-        width: 130px;
+        width: 150px;
     }
     .navBar .searchBar{
         display: none;

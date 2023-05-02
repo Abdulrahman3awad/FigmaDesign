@@ -1,5 +1,5 @@
+import Header from "./Header/Header.js";
 import NavBar from "./NavBar/NavBar.js";
-console.log("wsldkc");
 document.body.append(
-    NavBar()
+    NavBar(), Header()
 )

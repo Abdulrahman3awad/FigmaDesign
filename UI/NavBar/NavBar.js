@@ -15,6 +15,5 @@ export default function NavBar(){
 
         ]
     })
-    console.log("wejmfmjlewmfv");
     return navBar
 }
