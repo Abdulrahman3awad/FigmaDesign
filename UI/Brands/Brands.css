@@ -1,0 +1,45 @@
+.brands{
+    width: 100%;
+    display: flex;flex-direction: row;align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 60px;
+    height: 180px;
+}
+.brands::-webkit-scrollbar-thumb {
+    background-color: #7f56d942;
+}
+.brands > p{
+    display: flex;
+    flex-direction: column;align-items: flex-start;
+}
+.brands > p > mark{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #7F56D9;
+    background-color: transparent;
+}
+.brands p span{
+    color: #101828;
+    font-size: 25px;
+    font-weight: 200;
+}
+/* ### start the media screen ### */
+@media only screen and (max-width:760px) {
+    .brands{
+        position: relative;
+        top: -50px;
+    }
+}
+@media only screen and (max-width:680px) {
+    .brands{
+        top: -100px;
+    }
+}
+@media only screen and (max-width:530px) {
+    .brands{
+        top: -150px;
+    }
+}

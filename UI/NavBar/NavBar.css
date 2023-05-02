@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 0px;
+    justify-content: space-between;
+    padding: 0px 30px;
 }
 /* ### start the search bar ### */
 .navBar .searchBar{
@@ -113,7 +113,7 @@
     cursor: pointer;
 }
 /* ### start the media screen ### */
-@media only screen and (max-width:1400px) {
+@media only screen and (max-width:1300px) {
     .navBar{
         justify-content: center;
         gap: 30px;
