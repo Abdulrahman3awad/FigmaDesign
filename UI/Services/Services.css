@@ -1,0 +1,98 @@
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+.services .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+.services .top > h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #6941C6;
+}
+.services .top > h4{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+.services > .cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.services > .cards > .serviceCard{
+    width: 373px;
+    min-width: 373px;
+    background: #FFFFFF;
+    box-shadow: 0px 67.1144px 109.061px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px 40px;
+    gap: 22px;
+}
+.services > .cards > .serviceCard > .top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.services > .cards > .serviceCard > .top > div{
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;align-items: center;justify-content: center;
+}
+.services > .cards > .serviceCard > .top > span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #101828;
+}
+.services > .cards > .serviceCard > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #646464;
+}
+.services > .cards > .serviceCard > button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: transparent;
+    border: 0px;outline: 0px;
+    color: #7F56D9;
+    cursor: pointer;
+}
+.services > .cards > .serviceCard > button > span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+.services > .cards > .serviceCard > button > ion-icon{
+    font-size: 18px;
+}
