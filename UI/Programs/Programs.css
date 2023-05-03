@@ -1,0 +1,200 @@
+.programs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+/* @@@ start the top part @@@ */
+.programs .top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.programs .top h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6941C6;
+    margin-bottom: 12px;
+}
+.programs .top h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin-bottom: 20px;
+}
+.programs .top p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+/* @@@ start the top cards @@@ */
+.programs .programCards{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.programs .programCards .programCard{
+    width: 384px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.08), 0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 24px 32px;
+    position: relative;
+}
+.programs .programCards .programCard > .time{
+    position: absolute;
+    padding: 6px 10px;
+    gap: 6px;
+    display: flex;
+    flex-direction: row;align-items: center;justify-content: center;
+    position: absolute;
+    right: 31px;
+    top: 35px;
+    background: #FFFFFF;
+    backdrop-filter: blur(2px);
+    border-radius: 4px;
+}
+.programs .programCards .programCard > .time ion-icon{
+    font-size: 18px;
+    color: #413C69;
+}
+.programs .programCards .programCard > .time mark{
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #667085;
+}
+.programs .programCards .programCard > img{
+    border-radius: 4px;    
+    margin-bottom: 32px;
+}
+.programs .programCards .programCard .contant{
+    width: 100%;
+    display: flex;flex-direction: column;align-items: flex-start;
+}
+.programs .programCards .programCard .contant > h6{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6941C6;margin-bottom: 12px;
+}
+.programs .programCards .programCard .contant > h5{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;margin-bottom: 12px;
+}
+.programs .programCards .programCard .contant > h5 > span{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #101828;
+}
+.programs .programCards .programCard .contant > h5 > ion-icon{
+    transform: rotate(45deg);
+    font-size: 21px;
+}
+.programs .programCards .programCard .contant > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    margin-bottom: 12px;
+}
+.programs .programCards .programCard .contant > div.containerRate{
+    width: 100%;
+    display: flex;flex-direction: row;align-items: center;justify-content: flex-start;
+}
+.programs .programCards .programCard .contant > div.containerRate > span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7F56D9;
+    margin-right: 5px;
+}
+.programs .programCards .programCard .contant > div.containerRate > .rate{
+    height: 20px;position: relative;margin-right: 10px;
+}
+.programs .programCards .programCard .contant > div.containerRate > .rate  .value{
+    height: 100%;
+    position: absolute;
+    background-color: #FF9B26;
+    z-index: 1;
+    mix-blend-mode: color;
+}
+.programs .programCards .programCard .contant > div.containerRate >.rate>  .stars > ion-icon{
+    color: #b6b6b6;
+    font-size: 20px;
+    z-index: 2;
+}
+.programs .programCards .programCard .contant > div.containerRate > mark{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #111111;
+    background-color: transparent;
+}
+.programs .programCards .programCard .contant > div.leader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;position: relative;
+}
+.programs .programCards .programCard .contant > div.leader >img{
+    border-radius: 50%;
+    margin-right: 12px;;
+}
+.programs .programCards .programCard .contant > div.leader > div.center{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.programs .programCards .programCard .contant > div.leader > div.center > p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #101828;
+}
+.programs .programCards .programCard .contant > div.leader > div.center > span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+.programs .programCards .programCard .contant > div.leader > mark{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #7F56D9;
+    position: absolute;
+    right: 0px;background-color: transparent;
+}
+/* @@@ start media screen @@@ */
+@media only screen and (max-width:1322px) {
+    .programs .top{
+        align-items: center;
+    }
+    .programs .top *{
+        text-align: center;
+    }
+}
