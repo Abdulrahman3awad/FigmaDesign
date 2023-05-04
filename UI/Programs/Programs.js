@@ -18,7 +18,8 @@ export default function Programs(){
             comket.div({
                 class:"programCards",
                 children:cardsArray
-            })
+            }),
+            comket.button({class:"exploreBtn",text:"Explore All Programs"})
         ]
     })
     return container

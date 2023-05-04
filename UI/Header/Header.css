@@ -54,13 +54,14 @@
     line-height: 28px;
     cursor: pointer;
     border: 0px;outline: 0px;
+    transition: .2s;
 }
-.header .left > .btns > button:nth-of-type(1){
+.header .left > .btns > button:nth-of-type(1),.header .left > .btns > button:nth-of-type(2):hover{
     background: #7F56D9;
     border: 1px solid #7F56D9;
     color: #F4EBFF;
 }
-.header .left > .btns > button:nth-of-type(2){
+.header .left > .btns > button:nth-of-type(2),.header .left > .btns > button:nth-of-type(1):hover{
     background: #F4EBFF;
     border: 1px solid #F4EBFF;
     color: #7F56D9;
