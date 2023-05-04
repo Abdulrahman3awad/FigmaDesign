@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 40px;
+    margin-bottom: 80px;
 }
 /* @@@ start the top part @@@ */
 .programs .top{
@@ -210,5 +211,18 @@
     }
     .programs .top *{
         text-align: center;
+    }
+}
+@media only screen and (max-width:600px) {
+    .programs {
+        padding: 0px 10px;
+    }
+    .programs > .top > h2{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .programs > .top > p{
+        font-size: 18px;
+        line-height: 25px;
     }
 }

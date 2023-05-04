@@ -3,6 +3,8 @@
 @import url(./Brands/Brands.css);
 @import url(./Services/Services.css);
 @import url(./Programs/Programs.css);
+@import url(./Tutors/Tutors.css);
+
 
 *{
     margin: 0px;
