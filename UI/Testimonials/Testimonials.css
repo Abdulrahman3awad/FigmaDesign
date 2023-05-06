@@ -1,0 +1,102 @@
+.testimonials {
+    width: 100%;
+    padding: 40px 0 108px 0;
+    background-color: #F9FAFB;
+}
+
+.testimonials>.cards {
+    width: calc(100% - 3px);
+}
+
+.testimonials>.cards>.testimonial-card {
+    width: calc(100% - 3px);
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials>.cards>.testimonial-card>h5 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #101828;
+    line-height: 120%;
+    width: 85%;
+    max-width: 1200px;
+    padding: 32px 20px 0 20px;
+}
+
+.testimonials>.cards>.testimonial-card>img.user-image {
+    border-radius: 50%;
+    margin-top: 32px;
+}
+
+.testimonials>.cards>.testimonial-card>p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #101828;
+    line-height: 140%;
+    padding-top: 16px;
+}
+
+.testimonials>.cards>.testimonial-card>span {
+    font-size: 16px;
+    font-weight: 300;
+    color: #667085;
+    line-height: 150%;
+    padding-top: 4px;
+}
+
+.testimonials>.bullets {
+    bottom: 51px;
+}
+
+.testimonials>.bullets>span {
+    background-color: #E8E8E8 !important;
+}
+
+.testimonials>.bullets>span[class*="active"] {
+    background-color: #7F56D9 !important;
+    width: 15px;
+    height: 15px;
+}
+
+.testimonials>.next-button {
+    right: 40px;
+    color: #7F56D9 !important;
+}
+
+.testimonials>.prev-button {
+    left: 40px;
+    color: #7F56D9 !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .testimonials>.cards>.testimonial-card>h5 {
+        font-size: 34px;
+        max-width: 800px;
+        padding-top: 22px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .testimonials>.cards>.testimonial-card>h5 {
+        font-size: 22px;
+        max-width: 350px;
+        padding-top: 20px;
+    }
+
+    .testimonials>.cards>.testimonial-card>img.user-image {
+        margin-top: 22px;
+    }
+
+    .testimonials>.next-button {
+        right: 15px;
+    }
+
+    .testimonials>.prev-button {
+        left: 15px;
+    }
+}
