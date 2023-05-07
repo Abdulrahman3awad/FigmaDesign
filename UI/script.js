@@ -5,6 +5,7 @@ import Services from "./Services/Services.js";
 import Programs from "./Programs/Programs.js";
 import Tutors from "./Tutors/Tutors.js";
 import Testimonials from "./Testimonials/Testimonials.js";
+import Blogs from "./Blogs/Blogs.js";
 document.body.append(
-    NavBar(), Header(), Brands(), Services(),Programs(),Tutors(), Testimonials()
+    NavBar(), Header(), Brands(), Services(),Programs(),Tutors(), Testimonials(),Blogs()
 )

@@ -1,0 +1,162 @@
+.blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 32px;
+}
+
+.blogs h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #101828;
+    width: 100%;
+    text-align: start;
+}
+
+.blogs .cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 32px;
+}
+
+.blogs .cards .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.blogs .cards .left>div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.blogs .cards .left>div .details {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.blogs .cards .left>div .details>h6 {
+    font-size: 14px;
+    line-height: 20px;
+    color: #6941C6;
+    margin-bottom: 12px;
+}
+
+.blogs .cards .left>div .details>h5 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    margin-bottom: 8px;
+}
+
+.blogs .cards>div>div .details>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+    margin-bottom: 26px;
+}
+
+.blogs .cards>div>div .details>.tags {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.blogs .cards>div>div .details>.tags>span {
+    padding: 2px 10px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.blogs .cards .right>div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    width: 590px;
+}
+
+.blogs .cards .right>div .details {
+    width: 100%;
+}
+
+.blogs .cards .right>div .details>h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6941C6;
+    margin-bottom: 12px;
+}
+
+.blogs .cards .right>div .details>h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #101828;
+    margin-bottom: 12px;
+}
+
+.blogs > .exploreBtn{
+    width: 173px;
+    height: 40px;
+    background: #F9FAFB;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #101828;
+    
+}
+/* @@@ start the media screen @@@ */
+@media only screen and (max-width: 1250px) {
+    .blogs{
+        padding: 0px 20px;
+    }
+    .blogs .cards {
+        flex-wrap: wrap;
+    }
+    .blogs h3 {
+        text-align: center;
+    }
+    .blogs .cards div >.blogCard {
+        flex-direction: column;
+        width: 100% !important;
+        max-width: 590px;
+    }
+    .blogs .cards>div>.blogCard>img {
+        width: 100%;
+        min-height: 200px;
+        max-height: 200px;
+        object-fit: cover;
+    }
+    .blogs .cards>div>.blogCard>.details {
+        width: 100%;
+        align-items: flex-start !important;
+    }
+}
