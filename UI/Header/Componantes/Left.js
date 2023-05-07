@@ -1,5 +1,5 @@
-import comket from "../../dependencies/comket.js"
 
+import comket from "../../dependencies/comket.js"
 export default function Left(){
     let container = comket.div({
         class:"left",
