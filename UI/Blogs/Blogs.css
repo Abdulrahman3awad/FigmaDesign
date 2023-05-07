@@ -5,6 +5,7 @@
     justify-content: flex-start;
     width: 100%;
     gap: 32px;
+    margin-bottom: 80px;
 }
 
 .blogs h3 {

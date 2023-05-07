@@ -1,0 +1,86 @@
+.footer{
+    width: 100%;
+    padding-top: 64px;gap: 40px;
+    background: #101828;display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-start;
+}
+.footer .main{
+    width: 100%;
+    display: flex;flex-direction: row;align-items: flex-start;justify-content: space-between;gap: 64px;
+}
+.footer .main .summary{
+    max-width: 320px;
+    display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-start;gap: 32px;
+}
+.footer .main .summary p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EAECF0;
+}
+.footer .main .links{
+    width: calc(100% - 320px);
+    display: flex;flex-direction: row;align-items: flex-start;justify-content: space-between;gap: 40px;
+}
+.footer .main .links > div{
+    display: flex;flex-direction: column;
+    align-items: flex-start;justify-content: flex-start;gap: 16px;
+}
+.footer .main .links > div > h5{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #98A2B3;
+}
+.footer .main .links > div > div{
+    display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-start;gap: 12px;
+}
+.footer .main .links > div > div > a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EAECF0;
+}
+/* @@@ start the copyrights part @@@ */
+.footer .copyrights{
+    display: flex;flex-direction: row-reverse;align-items: center;justify-content: space-between;
+    width: 100%;height: 120px;
+}
+.footer .copyrights > .copyright{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #98A2B3;
+}
+.footer .copyrights > .links{
+    display: flex;flex-direction: row;gap: 20px;
+}
+.footer .copyrights > .links  ion-icon{
+    font-size: 20px;color: #98A2B3;
+}
+/* @@@ start media screen @@@ */
+@media only screen and (max-width:1250px) {
+    .footer .main{
+        flex-direction: column;
+    }
+    .footer .main .links{width: 100%;}
+}
+@media only screen and (max-width:850px){
+    .footer{padding: 64px 20px 0px 20px;}
+    .footer .main{
+        align-items: center;
+    }
+    .footer .main * {align-items: center !important;text-align: center; justify-content: center !important;}
+    .footer .main .links{
+        flex-wrap: wrap;
+        justify-content: space-around !important;
+    }
+}
+@media only screen and (max-width:630px){
+    .footer .copyrights{
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        padding: 10px;
+    }
+}

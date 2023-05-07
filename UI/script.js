@@ -6,6 +6,7 @@ import Programs from "./Programs/Programs.js";
 import Tutors from "./Tutors/Tutors.js";
 import Testimonials from "./Testimonials/Testimonials.js";
 import Blogs from "./Blogs/Blogs.js";
+import Footer from "./Footer/Footer.js";
 document.body.append(
-    NavBar(), Header(), Brands(), Services(),Programs(),Tutors(), Testimonials(),Blogs()
+    NavBar(), Header(), Brands(), Services(),Programs(),Tutors(), Testimonials(), Blogs(), Footer()
 )
